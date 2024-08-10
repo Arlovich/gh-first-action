@@ -7,5 +7,11 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "HELLLLOOOOO"
+      - name: Test-multi
+        run: |
+          echo "1111"
+          echo "2222"
+          echo "3333"
+          echo "4444"
       - name: LOH
         run: echo "LOH"
